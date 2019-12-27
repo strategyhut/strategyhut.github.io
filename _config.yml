@@ -1,5 +1,5 @@
 ---
-title: Lek Syde.Github.Io
+title: Junewisse.com
 timezone: Africa/Lagos
 collections:
   posts:
@@ -21,7 +21,7 @@ defaults:
   values:
     layout: page
     show-avatar: true
-url: http://leksyde.com/
+url: https://www.junewisse.com/
 baseurl: ''
 description: Programming and a Bunch of other stuffs!
 navbar-links:
