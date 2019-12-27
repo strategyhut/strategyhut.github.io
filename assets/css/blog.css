@@ -1294,7 +1294,7 @@ body.search .post.center-style .info-wrap {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   font-size: 50px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Domaine Display Regular", sans-serif;
   font-weight: 600;
   color: #222;
   line-height: normal;
@@ -1302,10 +1302,10 @@ body.search .post.center-style .info-wrap {
   margin-bottom: 20px; }
 
 .single-post p {
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 24px;
+  line-height: 40px;
   font-weight: 400;
-  color: #999;
+  color: #222;
   margin-bottom: 10px;
   letter-spacing: 1px; }
 
@@ -1322,7 +1322,7 @@ body.search .post.center-style .info-wrap {
 .post-paper blockquote p {
   font-size: 24px;
   line-height: 1.5;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #222222;
   text-align: center !important;
@@ -1780,7 +1780,7 @@ body.search .post.center-style .info-wrap {
   font-size: 30px;
   line-height: 1.4;
   letter-spacing: 1.2px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Domaine Display Regular", sans-serif;
   font-weight: 600;
   margin: 0 auto 25px;
   color: #222222; }
