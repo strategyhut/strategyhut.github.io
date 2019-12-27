@@ -1,0 +1,91 @@
+---
+layout: home-blog
+subtitle: 
+use-site-title: true
+---
+
+<div class="tg-grid-wrapper wiso-posts-lucia  tg-txt" id="grid-4028" data-version="2.6.0">
+
+                        
+                         
+                   
+   <div class="tg-grid-holder tg-layout-masonry home-blog row">
+                                <!-- The Grid item #1 -->
+                              
+     {% for post in paginator.posts %} 
+
+       
+     
+           <article class="tg-item col-sm-4 col-xs-12 margin-xs-30t tg-post-3807 tg-iso-post-1 f48 f23" data-row="1"  data-col="1">
+              <div class="tg-item-inner">
+                <div class="tg-item-media-holder tg-light">
+                   {% if post.image %}
+                   <div class="tg-item-media-inner">
+                    <img class="tg-item-image" alt="" height="956px" src="{{ post.image }}">
+                   </div>
+                   {% endif %}
+                  
+                  <div class="tg-item-media-content "></div>
+                    </div>
+                  <div class="tg-item-content-holder tg-dark image-format"
+                                             data-position="bottom">
+                                             <span class="tg-item-date tg-element-1"><i>{{ post.date | date: "%-d" }}</i><br> {{ post.date | date: "%B, %Y" }}</span>
+
+            
+                                            {% if post.tags.size > 0 %}
+                                             <span class="tg-cats-holder tg-element-3">
+                                               {% if site.link-tags %}
+                                               {% for tag in post.tags %}
+                                               
+                              <a class="category" href="" rel="category" data-term-id="48"><span class="tg-item-term">{{- tag -}}</span></a>
+                                             {% endfor %}
+                                              {% else %}
+                                             {{ post.tags | join: ", " }}
+                                            {% endif %}
+                                            </span>
+                                            {% endif %}
+                                            <h2 class="tg-item-title tg-element-2"><a target="_self"
+                                                                                      href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </a></h2>
+                                            <div class="tg-item-clear"></div>
+                                        </div>
+                   </div>
+            </article>
+
+
+
+     
+       
+  
+
+                       
+
+                                
+
+
+                                <!-- The Grid item #2 -->
+            {% endfor %}
+
+</div>
+ </div>
+ <br/><br/>
+
+
+  <center>
+{% if paginator.total_pages > 1 %}
+
+ {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="a-btn-3">Previous</a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+
+                         
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="a-btn-3">Next</a>
+
+                    
+  {% endif %}
+
+{% endif %}
+</center>
+                    
+                    

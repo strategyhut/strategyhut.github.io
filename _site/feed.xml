@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lek Syde.Github.Io</title>
+    <description>Programming and a Bunch of other stuffs!</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>This is my third post on my blog</title>
+        <description>
+          
+          This is a sample post, i really do not know what to write about 🤔.
+
+
+
+  You can have anything you want in life if you dress for it.
+Edith Head
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+        </description>
+        <pubDate>Wed, 13 Mar 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2019-03-13-third-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-13-third-post/</guid>
+      </item>
+    
+      <item>
+        <title>This is my second post on my blog</title>
+        <description>
+          
+          This is a sample post, i really do not know what to write about 🤔.
+
+
+
+  You can have anything you want in life if you dress for it.
+Edith Head
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+        </description>
+        <pubDate>Wed, 13 Mar 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2019-03-13-second-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-13-second-post/</guid>
+      </item>
+    
+      <item>
+        <title>This is my first post on my blog</title>
+        <description>
+          
+          This is a sample post, i really do not know what to write about 🤔.
+
+
+
+  You can have anything you want in life if you dress for it.
+by Edith Head
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+        </description>
+        <pubDate>Wed, 13 Mar 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2019-03-13-first-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-13-first-post/</guid>
+      </item>
+    
+  </channel>
+</rss>
