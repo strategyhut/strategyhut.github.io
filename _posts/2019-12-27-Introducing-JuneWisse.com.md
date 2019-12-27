@@ -1,5 +1,5 @@
 ---
-title: Introducing 'JuneWisse.com' 
+title: Introducing 'JuneWisse.com'
 date: 2019-12-27 00:00:00 +01:00
 tags:
 - me
